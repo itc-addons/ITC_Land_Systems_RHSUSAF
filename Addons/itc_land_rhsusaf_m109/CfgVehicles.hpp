@@ -64,6 +64,7 @@ class CfgVehicles {
 	};
 	class itc_land_rhsusf_m109_usarmy: rhsusf_m109_usarmy {
 		displayname = "M109A6 mod. 0 Paladin 2 (WD)";
+		scopeCurator = 2;		
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_SPHammohandler {
                 displayName = "Open Ammo Handling Interface";
@@ -115,6 +116,7 @@ class CfgVehicles {
 	};
 	class itc_land_rhsusf_m109d_usarmy: rhsusf_m109d_usarmy {
 		displayname = "M109A6 mod. 0 Paladin 2 (DES)";	
+		scopeCurator = 2;
         class ACE_SelfActions: ACE_SelfActions {
             class ITC_Land_SPHammohandler {
                 displayName = "Open Ammo Handling Interface";
