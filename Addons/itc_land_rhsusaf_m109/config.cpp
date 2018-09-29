@@ -9,6 +9,7 @@
 	};
 };
 
+#include "CfgITCLandBalistics.hpp"
 #include "CfgXEH.hpp"
 #include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
