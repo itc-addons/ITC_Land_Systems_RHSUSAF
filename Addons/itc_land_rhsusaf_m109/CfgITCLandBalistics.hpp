@@ -1,9 +1,9 @@
 class itc_land_ballistics {
   class batteryTypes {
-    class M284 {
-      displayName = "M284 155mmm Howitzer";
+    class RHS_M109_M284 {
+      displayName = "M109A6 - 155mmm Howitzer";
       type = "cannon";
-      ammunition[] = {"itc_land_g155hex","itc_land_g155smo","itc_land_g155icm","itc_land_g155mat","itc_land_g155map","itc_land_g155pgm","itc_land_g155lgm","itc_land_g155ill","itc_land_g155ext"};
+      ammunition[] = {"itc_land_m109hex","itc_land_m109smo","itc_land_m109icm","itc_land_m109mat","itc_land_m109map","itc_land_m109pgm","itc_land_m109lgm","itc_land_m109ill","itc_land_m109ext"};
       weaponClass = "itc_land_rhs_weap_m284";
     };
   };

@@ -8,7 +8,7 @@ class CfgWeapons {
 		modes[] = {"Single"};
 		reloadTime = 1;
 		magazineReloadTime = 6;	
-		#include "CfgWeapons_howitzers_magazines155mm.hpp"
+		#include "CfgWeapons_howitzers_magazinesm109.hpp"
 		class Single: Single1 {
 			displayName = "";
 			artilleryCharge = 1;

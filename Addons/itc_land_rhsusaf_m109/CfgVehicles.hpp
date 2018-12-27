@@ -92,14 +92,14 @@ class CfgVehicles {
 				weapons[] = {"itc_land_rhs_weap_m284"};
 				magazines[] = {
 					//	rhs_mag_155mm_m795_28, rhs_mag_155mm_m825a1_2, rhs_mag_155mm_485_2, rhs_mag_155mm_m712_2, rhs_mag_155mm_m731_1, rhs_mag_155mm_raams_1, rhs_mag_155mm_m864_3
-					mag_24("itc_land_g155hex"),
-					mag_4("itc_land_g155hex"),
-					mag_5("itc_land_g155smo"),
-					mag_5("itc_land_g155ill"),
-					mag_2("itc_land_g155icm"),
-					"itc_land_g155map",					
-					"itc_land_g155mat",										
-					mag_2("itc_land_g155pgm")
+					mag_24("itc_land_m109hex"),
+					mag_4("itc_land_m109hex"),
+					mag_5("itc_land_m109smo"),
+					mag_5("itc_land_m109ill"),
+					mag_2("itc_land_m109icm"),
+					"itc_land_m109map",					
+					"itc_land_m109mat",										
+					mag_2("itc_land_m109pgm")
 				};
 				lockWhenVehicleSpeed= 5;
 				maxHorizontalRotSpeed = "((360/30)/45)";
@@ -134,9 +134,6 @@ class CfgVehicles {
 		class itc_land {
 			tabletInterfaces[] = {"spg"};
 			mountedTablet = "itc_land_tablet_spg";
-			class fcs {
-				tableList = "g_155";
-			};
 		};
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
@@ -144,14 +141,14 @@ class CfgVehicles {
 				weapons[] = {"itc_land_rhs_weap_m284"};
 				magazines[] = {
 					//	rhs_mag_155mm_m795_28, rhs_mag_155mm_m825a1_2, rhs_mag_155mm_485_2, rhs_mag_155mm_m712_2, rhs_mag_155mm_m731_1, rhs_mag_155mm_raams_1, rhs_mag_155mm_m864_3
-					mag_24("itc_land_g155hex"),
-					mag_4("itc_land_g155hex"),
-					mag_5("itc_land_g155smo"),
-					mag_5("itc_land_g155ill"),
-					mag_2("itc_land_g155icm"),
-					"itc_land_g155map",					
-					"itc_land_g155mat",										
-					mag_2("itc_land_g155pgm")
+					mag_24("itc_land_m109hex"),
+					mag_4("itc_land_m109hex"),
+					mag_5("itc_land_m109smo"),
+					mag_5("itc_land_m109ill"),
+					mag_2("itc_land_m109icm"),
+					"itc_land_m109map",					
+					"itc_land_m109mat",										
+					mag_2("itc_land_m109pgm")
 				};
 				lockWhenVehicleSpeed= 5;
 				maxHorizontalRotSpeed = "((360/30)/45)";
