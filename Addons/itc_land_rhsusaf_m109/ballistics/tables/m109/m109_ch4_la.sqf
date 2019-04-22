@@ -1,5 +1,5 @@
 // ARTY+ACE Module ballistics table.
-// Magazine: itc_land_g152hex_chg5
+// Magazine: itc_land_m109hex
 // Ammo: itc_land_155mm
 // AirFriction: 0
 // MuzzleVelocity: 340

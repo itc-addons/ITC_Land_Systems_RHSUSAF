@@ -34,6 +34,7 @@ class CfgMagazines {
 		author = "Toadball";
 		displayName = "M864 ICM";
 		displayNameShort = "M864 ICM";
+		itc_land_charge_format = "itc_land_m109icm_chg%1";
 		itc_land_btabListFile = "itc_land_rhsusaf_m109\ballistics\tables\m109\list.sqf";
 	};
 	class itc_land_m109icm_chg1: itc_land_m109icm { initSpeed = 92; itc_land_CountInAH = 0;  };
