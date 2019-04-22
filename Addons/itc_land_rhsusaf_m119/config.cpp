@@ -10,5 +10,6 @@ class CfgPatches {
 	};
 };
 
+#include "CfgVehicles.hpp"
 #include "CfgMagazines.hpp"
 #include "CfgITCLandBalistics.hpp"
