@@ -80,7 +80,7 @@ class CfgVehicles {
 		};
 		artilleryScanner = 0;
 		class itc_land {
-  		  loaderType = 1; // semi automatic			
+  		  loaderType = 1; // semi automatic
 			tabletInterfaces[] = {"spg"};
 			mountedTablet = "itc_land_tablet_spg";
 			class fcs {
@@ -131,10 +131,14 @@ class CfgVehicles {
 				statement = "[_target] call itc_land_tablet_fnc_openVehicleTablet";
 			};
 		};
-		artilleryScanner = 0;
+    artilleryScanner = 0;
 		class itc_land {
+  		  loaderType = 1; // semi automatic
 			tabletInterfaces[] = {"spg"};
 			mountedTablet = "itc_land_tablet_spg";
+			class fcs {
+				tableList = "g_155";
+			};
 		};
 		class Turrets: Turrets {
 			class MainTurret: MainTurret {
